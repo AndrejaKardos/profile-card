@@ -21,7 +21,7 @@ body {
 .background__bottom {
     background-image: url("../images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
-    background-position: right -100px bottom -500px;
+    background-position: right -50px bottom -450px;
     height: 100vh;
 }
 
@@ -29,11 +29,11 @@ body {
 
 .profile {
     background: white;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 375px;
     border-radius: 15px;
     position: fixed;
-    top: 50%;
+    top: 47%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
