@@ -60,9 +60,19 @@ body {
     position: absolute;
     top: 94px;
     right: 128px;
-
+    border: 5px solid white;
+    z-index: 10;
 }
 
+.profile__picture--border {
+    background-color: rgb(255, 255, 255);
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    position: absolute;
+    top: 94px;
+    right: 128px;
+}
 
 /* FOOTER SECTION */
 
