@@ -28,11 +28,15 @@ body {
 /* PROFILE SECTION */
 
 .profile {
-    display: flex;
     background: white;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /* FOOTER SECTION */
