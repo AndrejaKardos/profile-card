@@ -54,9 +54,13 @@ body {
 
 .profile__picture {
     background-image: url("../images/bg-pattern-bottom.svg");
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     border-radius: 50%;
+    position: absolute;
+    top: 94px;
+    right: 128px;
+
 }
 
 
