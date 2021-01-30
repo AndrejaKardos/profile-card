@@ -75,6 +75,19 @@ body {
     right: 128px;
 }
 
+/* PROFILE BOTTOM SECTION */
+
+.profile__bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__bottom--socialmedia {
+    border-top: 1px solid grey;
+    width: 350px;
+    height: 200px;
+}
+
 /* FOOTER SECTION */
 
 .attribution { 
