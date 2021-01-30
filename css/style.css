@@ -136,9 +136,32 @@ body {
     margin-top: 16px;
 }
 
-.profile__bottom--socialmedia {
+
+
+/* SOCIAL MEDIA SECTION */
+
+.socialmedia {
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialmedia__followers,
+.socialmedia__likes,
+.socialmedia__photos {
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    height: 60px;
+}
+
+.socialmedia__followers p,
+.socialmedia__likes p,
+.socialmedia__photos p {
+    font-size: 10px;
+    color: rgb(151, 151, 151);
+    letter-spacing: 1px;
 }
 
 /* FOOTER SECTION */
