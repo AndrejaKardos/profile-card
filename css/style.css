@@ -40,8 +40,8 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari, iOS 4.0.2 - 4.2, Android */
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox */
+    -webkit-box-shadow: 3px 3px 5px 6px hsl(190, 73%, 29%);  /* Safari, iOS 4.0.2 - 4.2, Android */
+    -moz-box-shadow:    3px 3px 5px 6px hsl(190, 73%, 29%);  /* Firefox */
     box-shadow:         0px 15px 80px 0px hsl(190, 73%, 29%);  /* Opera, IE, Firefox, Chrome, iOS */
 }
 
@@ -88,7 +88,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 230px;
-    border: 1px solid red;
+    -webkit-box-shadow: 0px -4px 50px hsl(190, 73%, 29%);
+    -moz-box-shadow: 0px -4px 50px hsl(190, 73%, 29%);
+    box-shadow: 0px 10px 20px -5px hsl(190, 67%, 34%);
 }
 
 .profile__bottom--container {
@@ -130,7 +132,7 @@ body {
     width: 100%;
     font-size: 14px;
     color: hsl(0, 1%, 45%);
-    margin-bottom: 23px;
+    margin-bottom: 26px;
     margin-top: 13px;
 }
 
