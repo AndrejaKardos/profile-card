@@ -40,9 +40,9 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-box-shadow: 3px 3px 5px 6px hsl(190, 73%, 29%);  /* Safari, iOS 4.0.2 - 4.2, Android */
-    -moz-box-shadow:    3px 3px 5px 6px hsl(190, 73%, 29%);  /* Firefox */
-    box-shadow:         0px 15px 80px 0px hsl(190, 73%, 29%);  /* Opera, IE, Firefox, Chrome, iOS */
+    -webkit-box-shadow: 3px 3px 5px 6px hsl(190, 67%, 30%);  /* Safari, iOS 4.0.2 - 4.2, Android */
+    -moz-box-shadow:    3px 3px 5px 6px hsl(190, 67%, 30%);  /* Firefox */
+    box-shadow:         0px 15px 80px 6px hsl(190, 67%, 30%);  /* Opera, IE, Firefox, Chrome, iOS */
 }
 
 /* PROFILE TOP SECTION */
@@ -87,7 +87,7 @@ body {
 .profile__bottom {
     display: flex;
     flex-direction: column;
-    height: 235px;
+    height: 233px;
     -webkit-box-shadow: 0px -4px 50px hsl(190, 73%, 29%);
     -moz-box-shadow: 0px -4px 50px hsl(190, 73%, 29%);
     box-shadow: 0px -4px 5px -5px hsl(185, 75%, 39%);
