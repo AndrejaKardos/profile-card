@@ -40,9 +40,9 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-box-shadow: 3px 3px 5px 6px hsl(190, 67%, 30%);  /* Safari, iOS 4.0.2 - 4.2, Android */
-    -moz-box-shadow:    3px 3px 5px 6px hsl(190, 67%, 30%);  /* Firefox */
-    box-shadow:         0px 15px 80px 6px hsl(190, 67%, 30%);  /* Opera, IE, Firefox, Chrome, iOS */
+    -webkit-box-shadow: 3px 3px 5px 6px hsl(190, 73%, 29%);  /* Safari, iOS 4.0.2 - 4.2, Android */
+    -moz-box-shadow:    3px 3px 5px 6px hsl(190, 68%, 36%);  /* Firefox */
+    box-shadow:         0px 30px 80px -5px hsl(190, 72%, 31%);  /* Opera, IE, Firefox, Chrome, iOS */
 }
 
 /* PROFILE TOP SECTION */
@@ -57,12 +57,12 @@ body {
 
 .profile__picture {
     background-image: url("../images/bg-pattern-bottom.svg");
-    width: 95px;
-    height: 95px;
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
     position: absolute;
     top: 88px;
-    right: 123px;
+    right: 122px;
     border: 5px solid white;
     z-index: 10;
 }
@@ -73,8 +73,8 @@ body {
     height: 105px;
     border-radius: 50%;
     position: absolute;
-    top: 88px;
-    right: 123px;
+    top: 89px;
+    right: 122px;
 }
 
 /* PROFILE BOTTOM SECTION */
@@ -88,8 +88,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 233px;
-    -webkit-box-shadow: 0px -4px 50px hsl(190, 73%, 29%);
-    -moz-box-shadow: 0px -4px 50px hsl(190, 73%, 29%);
+    -webkit-box-shadow: 0px -4px 50px hsl(185, 75%, 39%);
+    -moz-box-shadow: 0px -4px 50px  hsl(185, 75%, 39%);
     box-shadow: 0px -4px 5px -5px hsl(185, 75%, 39%);
 }
 
