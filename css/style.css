@@ -108,7 +108,6 @@ body {
     justify-content: center;
     align-content: center;
     height: 20px;
-    border: 1px solid blue;
 }
 
 .text--name {
@@ -131,7 +130,8 @@ body {
     width: 100%;
     font-size: 14px;
     color: hsl(0, 1%, 45%);
-    margin-bottom: 36px;
+    margin-bottom: 23px;
+    margin-top: 13px;
 }
 
 .profile__bottom--socialmedia {
